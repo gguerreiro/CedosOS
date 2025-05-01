@@ -3,7 +3,7 @@
 #include "debug.h"
 
 CarControl::CarControl() :
-    motor_pin_a(26), motor_pin_b(27), front_wheels_servo()
+    motor_pin_a(22), motor_pin_b(23), front_wheels_servo()
 {}
 
 bool CarControl::setup() {
