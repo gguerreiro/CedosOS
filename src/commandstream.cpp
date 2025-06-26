@@ -3,7 +3,7 @@
 CommandStream::CommandStream() {}
 
 bool CommandStream::setup() {
-    return this->bt_serial.begin("Cedos");
+    return this->bt_serial.begin("Marco Polo");
 }
 
 Command CommandStream::next_command() {
